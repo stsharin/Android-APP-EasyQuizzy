@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    tools:context=".question2">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="Q2. What is android view group?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rd_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection of views and other child views"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rd_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Base class of building blocks"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rd_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Layouts"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rd_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the Above"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="309dp"
+            android:layout_height="45dp"
+            android:layout_margin="40dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/buttonshape"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:onClick="con"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="309dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="40dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+</LinearLayout>

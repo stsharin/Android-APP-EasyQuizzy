@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+
+    <string name="about">
+        \n\nThe app is developed by <b>Saraban Tasnim Sharin</b>,
+        student of Department of Computer Science and Engineering, Daffodil International University.
+        \n\n
+        Email: saraban15-9660@diu.edu.bd \n
+        ID: 172-15-9660 \n
+    </string>
+
+    <string name="text">Here will be the question text\nHere will be the question text\n
+    Here will be the question text\nHere will be the question text\n</string>
+
+</resources>
